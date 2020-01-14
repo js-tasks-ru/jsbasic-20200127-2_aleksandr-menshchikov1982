@@ -10,6 +10,11 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
+  let regexp = /^\w{4,}$/gmi;
+  if (name == null) {
+    return false;
+  }
+  return regexp.test(name);
 }
 
 function sayHello() {
