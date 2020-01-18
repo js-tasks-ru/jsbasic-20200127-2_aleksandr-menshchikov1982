@@ -3,8 +3,8 @@
  * @param   {string} str -  входные данные
  * @returns {{min:number, max:number}}  объект
  */
-function getMinMax(string) {
-  let arr = string.match(/([-+]?(\d+)[\.]?(\d+)?)/gm);
+function getMinMax(str) {
+  let arr = str.match(/([-+]?(\d+)[\.]?(\d+)?)/gm);
   let min = Math.min(...arr);
   let max = Math.max(...arr);
   let total = {min, max};
