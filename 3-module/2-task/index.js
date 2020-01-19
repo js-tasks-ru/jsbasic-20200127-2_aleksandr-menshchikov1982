@@ -10,3 +10,4 @@ function getMinMax(str) {
   let total = {min, max};
   return total;
 }
+

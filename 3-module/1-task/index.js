@@ -13,4 +13,3 @@ function showSalary(data, age) {
   }
   return str.split('\n').slice(0, -1).join('\n');
 }
-
